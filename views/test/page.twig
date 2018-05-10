@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+
+    <title>New Story</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/test/stylesheets/style.css" />
+    <script src="/test/javascripts/page.js"></script>
+</head>
+<body>
+<div id="edit">
+    <label>
+        ID
+        <input name="_id" />
+    </label>
+    <label>
+        Title
+        <input name="title" value="New Story" />
+    </label>
+    {#<label>#}
+        {#Image#}
+        {#<input name="image" value="image.png" />#}
+    {#</label>#}
+
+    <button type="button" id="add">Add</button>
+</div>
+
+<hr />
+
+<div id="delete">
+    <label>
+        ID
+        <input name="_id" />
+    </label>
+    <button type="button" id="remove">Remove</button>
+</div>
+</body>
+</html>
