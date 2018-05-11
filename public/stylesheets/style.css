@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+div, button, p, span, input, textarea {
+    box-sizing: border-box;
+}
+
 a {
   color: #ffa62b;
 }
@@ -20,7 +24,6 @@ header > div {
 }
 
 header > div, footer > div {
-  box-sizing: border-box;
   width: inherit;
   height: inherit;
   padding: 0 40px;
@@ -52,6 +55,6 @@ footer {
 }
 
 main {
-
+  margin: 0 auto;
 }
 /** @end */
