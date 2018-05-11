@@ -1,8 +1,57 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "\9ED1\4F53", Arial, sans-serif;
+  margin: 0;
 }
 
 a {
-  color: #00B7FF;
+  color: #ffa62b;
 }
+
+/** @layout */
+header, footer {
+  position: relative;
+  height: 60px;
+  width: 100%;
+}
+
+header > div {
+  position: fixed;
+}
+
+header > div, footer > div {
+  box-sizing: border-box;
+  width: inherit;
+  height: inherit;
+  padding: 0 40px;
+
+  background-color: #778cff;  /* TODO */
+}
+
+footer {
+  text-align: center;
+}
+
+#nav {
+  display: inline-block;
+  position: absolute;
+  right: 40px;
+  font-size: 16px;
+}
+
+#nav ul {
+  display: inline-block;
+  margin: 0;
+}
+
+#nav ul > li {
+  display: inline-block;
+  box-sizing: border-box;
+
+  border: 1px solid black;  /* TODO */
+}
+
+main {
+
+}
+/** @end */

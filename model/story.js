@@ -6,6 +6,7 @@ var storySchema = new mongoose.Schema({
     title: String,
     cover: String,
     publisher: String,
+    description: String,
     // 章节可增可删，情节不可修改
     chapters: [
         {
@@ -32,10 +33,10 @@ var storySchema = new mongoose.Schema({
     ending: [
         {
             name: String,
-            image: String,
+            image: String,  // 结局相册中的图标背景
             storyline: [
                 {
-                    image: String,
+                    image: String,  // 纯文字结局使用白色背景
                     content: String
                 }
             ],

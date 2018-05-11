@@ -11,6 +11,9 @@ $(function () {
             title: $("#edit").find('input[name="title"]').val(),
             cover: 'cover.png',
             publisher: 'wangrunbo',
+            description: '小镇发生了一起谋杀案，一名企业家早上被发现死在了客厅，背上插着一把水果刀。' +
+            '发现尸体的是他的管家，一位年过六旬的老人，他已经服侍死者30余年了。死者是死于密室，警察调查后没有发现任何线索。' +
+            '你是一名退休的侦探，年轻时破获过多起疑案。现在这群没用的警察求助于你，你能找到凶手吗？',
             chapters: [
                 {
                     name: '章节一',
